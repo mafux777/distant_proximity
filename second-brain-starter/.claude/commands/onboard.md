@@ -134,6 +134,33 @@ Check whether you have Gmail / Google Calendar (or Outlook) **connector tools** 
 
 Add a section `## Sources` to `rulebook.md` listing what you can access (e.g. "Gmail: read-only — connected", "Calendar: not connected").
 
+### Optional extras: Git and uv
+
+Say clearly that this part is **optional**: nothing in the second brain needs it today. It helps later with certain integrations, because some tools have no connector but do have a command-line tool (CLI) or an API.
+
+Explain in plain words:
+
+- **Git** gives you a terminal to run command-line tools in. On Windows it comes as **Git for Windows** (from git-scm.com), which includes **Git Bash**, a Unix-style terminal. On a Mac the terminal is built in, and Git comes with Apple's Command Line Developer Tools. Bonus: Git can keep a history of this folder, so every change can be reviewed and undone. They don't need to learn Git for any of this.
+- **uv** runs small scripts you write for them, for example to call a service's API. It installs Python on its own, so they never need to install Python or Node themselves.
+
+First check what's already there by running `git --version` and `uv --version`. Report the result in one line. Offer to install only what's missing. Don't install anything without a clear yes, and if they decline, move on.
+
+The install commands for each system:
+
+**Mac:**
+- Git: `xcode-select --install`
+- uv: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+
+**Windows (PowerShell):**
+- Git: `winget install --id Git.Git -e`
+- uv: `winget install --id astral-sh.uv -e`
+
+- On a Mac, `xcode-select --install` opens a system window. They need to click **Install** themselves, and it takes a few minutes.
+- On Windows, if `winget` isn't available (older Windows 10), uv can be installed with `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`, and Git with the installer from git-scm.com (keep the default settings).
+- After installing, run the `--version` check again. If the command still isn't found, the app needs a restart: they should quit the Claude app, open it again, and type `/onboard` to continue.
+
+Add the result to `## Sources` in `rulebook.md` (e.g. "Git: installed", "uv: not installed — declined").
+
 ## Step 7 — First daily briefing
 
 Run the `/briefing` command's instructions (from `.claude/commands/briefing.md`) to create `daily/<today>.md`. Then:

@@ -10,6 +10,7 @@ This folder becomes your second brain: a set of plain notes about your projects 
 2. The **Claude desktop app** (Mac or Windows): https://claude.ai/download — sign in.
 3. **Obsidian** (free): https://obsidian.md — for reading your notes.
 4. Unzip this folder somewhere easy to find, e.g. `Documents/second-brain`.
+5. *Optional:* **Git** and **uv**, two small free tools that help with some later integrations. You don't have to do this beforehand: during `/onboard`, Claude checks whether they're already installed and offers to install them for you.
 
 ## Getting started
 
