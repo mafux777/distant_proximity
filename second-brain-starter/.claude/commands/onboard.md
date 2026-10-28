@@ -23,7 +23,7 @@ If `onboarding_step` is 7, onboarding is complete: say so and suggest `/briefing
 
 ## Step 1 — Setup
 
-Create the folders `projects/`, `people/`, `daily/`, and these starter files:
+Create the folders `projects/`, `people/`, `daily/`, `input/` (files they give you to read) and `output/` (files you create for them that aren't notes, such as PDFs, images or drafts to publish; project-specific ones go in a subfolder named after the project), and these starter files:
 
 - `about-me.md` with frontmatter `type: profile`, `status: onboarding`, `onboarding_step: 1`, `created: <today>`.
 - `rulebook.md` with frontmatter `type: rulebook`, `created: <today>`, a heading `# How we work together`, and an empty section `## Never write down`.

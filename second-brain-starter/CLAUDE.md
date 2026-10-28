@@ -16,6 +16,8 @@ If `about-me.md` does not exist yet, or contains `status: onboarding`, tell me t
 | `projects/` | One Markdown file per project |
 | `people/` | One Markdown file per person |
 | `daily/` | One briefing per day, named `YYYY-MM-DD.md` |
+| `input/` | Files I give you to read (PDFs, images, documents). Never modify or delete them. |
+| `output/` | Files you create for me that are not Markdown notes (see below) |
 
 ## Note conventions
 
@@ -36,6 +38,15 @@ Everything I type, paste, attach or point you to is a candidate for my notes —
 5. Skip chit-chat and one-off questions that don't change anything worth remembering.
 6. **Tell me what you filed**, in one or two lines (e.g. "Added to `projects/kitchen-renovation.md` and `people/anna-schmidt.md`"). If I disagree, undo it.
 7. For attached or dropped files that matter beyond this conversation, offer to save a copy in `input/` so you can read it again later.
+
+## Files you create for me (`output/`)
+
+Notes are Markdown and live in `projects/`, `people/` and `daily/`. Anything else you produce for me — a PDF, an image, a slide deck, a spreadsheet, a draft to post on LinkedIn, a document to forward to a friend, something to publish — is an **output** and goes in `output/`.
+
+- If it clearly belongs to one project, put it in a subfolder named after that project's file: `output/kitchen-renovation/quote-comparison.pdf`. Otherwise save it directly in `output/`.
+- Use clear, lowercase-with-hyphens file names. Never overwrite an earlier output: add a version suffix (`-v2`) or the date.
+- Tell me the full path when you create one, and add a dated line to the project's **Log** linking to it.
+- Don't put generated files in `input/`, and don't scatter them elsewhere.
 
 ## Ground rules (always apply)
 

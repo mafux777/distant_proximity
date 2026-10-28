@@ -31,7 +31,7 @@ This folder becomes your second brain: a set of plain notes about your projects 
 | `.claude/commands/onboard.md` | The `/onboard` setup interview |
 | `.claude/commands/briefing.md` | The `/briefing` daily briefing |
 
-Everything else (`about-me.md`, `rulebook.md`, `projects/`, `people/`, `daily/`) is created during onboarding.
+Everything else (`about-me.md`, `rulebook.md`, `projects/`, `people/`, `daily/`, `input/`, `output/`) is created during onboarding. Put files you want Claude to read in `input/`; anything Claude creates for you that isn't a note (PDFs, images, slides, drafts to publish or forward) lands in `output/`, in a subfolder per project where it fits.
 
 ## Privacy
 
