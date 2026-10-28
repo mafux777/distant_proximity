@@ -140,6 +140,7 @@ Run the `/briefing` command's instructions (from `.claude/commands/briefing.md`)
 
 - Offer to do one thing from the Top 3 right now, e.g. draft a message (draft only; they send it).
 - Set `onboarding_step: 7` and `status: active` in `about-me.md`.
+- Explain the capture habit: from now on, anything they tell you (or attach) is considered for their notes. You file it in the right project or person note, tell them what you changed, and only *propose* changes to the rulebook. Do one live example: ask them to tell you one new fact about a project or person, and show where you filed it.
 - Tell them that from tomorrow, they just type `/briefing`.
 - Suggest 3 habits: run `/briefing` every morning; tell you whenever something changes ("I spoke to Anna, she agreed to…") so you update the notes; review `projects/` once a week.
 - Congratulate them — their second brain is live.

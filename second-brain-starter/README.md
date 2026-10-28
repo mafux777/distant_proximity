@@ -21,7 +21,7 @@ This folder becomes your second brain: a set of plain notes about your projects 
 ## Every day after that
 
 - Type **`/briefing`** each morning for your daily briefing.
-- Tell Claude when something changes ("I spoke to Anna — she'll send the quote by Friday") and it will update the right notes.
+- Tell Claude when something changes ("I spoke to Anna — she'll send the quote by Friday"). Anything you type, paste or attach is considered for your notes: Claude files it in the right project or person note and tells you what it changed. Changes to the rulebook are only proposed, never made silently.
 
 ## What's in here
 

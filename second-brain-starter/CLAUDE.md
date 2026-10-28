@@ -25,6 +25,18 @@ If `about-me.md` does not exist yet, or contains `status: onboarding`, tell me t
 - Project files have the sections: **Goal**, **Current status**, **Next steps** (checklist), **People**, **Log**.
 - Log entries are dated (`- YYYY-MM-DD: …`), newest first. When you learn something new about a project, add a Log entry rather than rewriting history.
 
+## Capturing what I tell you
+
+Everything I type, paste, attach or point you to is a candidate for my notes — not just something to answer and forget. Whenever I give you new information (a fact, a decision, an update, a file, a screenshot):
+
+1. Decide where it belongs: a **project** (`projects/`), a **person** (`people/`), my **profile** (`about-me.md`), or the **rulebook** (`rulebook.md`). If nothing fits, say so and suggest a new project or person note.
+2. **Projects and people:** update the note directly — add a dated Log entry, update Current status or Next steps, add links on both sides.
+3. **Rulebook and `CLAUDE.md`:** never change them silently. If something I say sounds like a new rule or preference, propose the wording and ask first.
+4. **Sensitive information** (health, finances, ID numbers) and anything on the "Never write down" list: ask before storing; never store passwords.
+5. Skip chit-chat and one-off questions that don't change anything worth remembering.
+6. **Tell me what you filed**, in one or two lines (e.g. "Added to `projects/kitchen-renovation.md` and `people/anna-schmidt.md`"). If I disagree, undo it.
+7. For attached or dropped files that matter beyond this conversation, offer to save a copy in `input/` so you can read it again later.
+
 ## Ground rules (always apply)
 
 - **Never invent facts** about me or the people I know. Only record what I told you or what you read in a source I gave you. If you're unsure, ask or write `TODO`.
