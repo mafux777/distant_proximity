@@ -6,8 +6,8 @@ Create today's daily briefing. First read `rulebook.md` (style, what counts as u
 
 Gather, from the sources available in this session:
 
-1. **Calendar** — today's events and anything important in the next 3 days (if connected).
-2. **Email** — new email since the last briefing (if connected). Triage every message: match the sender against `people/` and the topic against `projects/`. Skip newsletters, marketing and FYI-only mail. Keep **at most 5** items that need action from me, each linked to a project or person.
+1. **Calendar** — today's events and anything important in the next 3 days (if connected). The same meeting can appear twice (an invitation plus my own copy) — list it once. Flag invitations I haven't answered.
+2. **Email** — new email since the last briefing (if connected; search by date, e.g. `newer_than:1d` or `after:` the last briefing, rather than just "latest"). Triage every message: match the sender against `people/` and the topic against `projects/`. Skip newsletters, marketing and FYI-only mail. Keep **at most 5** items that need action from me, each linked to a project or person.
 3. **Projects** — for each active project, the single most important next step, and anything overdue or stuck.
 4. **People** — anyone I owe a reply to, open promises, birthdays in the next 7 days.
 

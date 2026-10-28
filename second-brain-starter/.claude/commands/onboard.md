@@ -129,7 +129,8 @@ Write these into `rulebook.md` as sections `## What you may do on your own`, `##
 Check whether you have Gmail / Google Calendar (or Outlook) **connector tools** in this session. Only connectors count — not command-line programs or anything else on the computer.
 
 - **If yes:** read only. List their next 3 calendar events and the subjects of their 10 most recent emails to prove it works. Change nothing.
-- **If not:** tell them: in the Claude app, open **Settings → Connectors**, connect Gmail and Google Calendar, then start a new session in this folder and type `/onboard` to come back here. Say the workshop host will show this on screen. Offer to continue without them for now — they can also paste emails or details into the chat.
+- **If not:** tell them to add the **Gmail** and **Google Calendar** connectors: in the Claude app, open the **Connectors** menu from the **+** button in the message box (or ask you to "suggest the Gmail and Calendar connectors", which shows Connect buttons), click **Connect** and sign in with Google. Once they say it's done, check again — the tools normally appear in this same session from the next message; if they don't, they should start a new session in this folder and type `/onboard`. Say the workshop host will show this on screen. Offer to continue without them for now — they can also paste emails or details into the chat.
+- Explain that the Gmail connector *can* send, forward and delete mail, but under the rules in this folder you only ever read and draft. The app may ask them to approve a tool the first time you use it; they should allow reading, and decline anything that sends or deletes unless they asked for it.
 
 Add a section `## Sources` to `rulebook.md` listing what you can access (e.g. "Gmail: read-only — connected", "Calendar: not connected").
 
