@@ -84,35 +84,56 @@ In step 3, write people as plain names; step 4 turns them into links. Ask one or
 
 ## Step 4 — People → `people/*.md`
 
-Ask for the **5–8 people who matter most right now** (family, colleagues, clients, recruiters, friends, helpers). Start with the people already mentioned in projects. Tell them they can add more any time later just by mentioning someone. For each, capture: name, relationship, how they're in touch (only what they want stored), which projects they relate to, and anything worth remembering (birthday, last conversation, open promises in either direction).
+Ask for the **5–8 people who matter most right now** (colleagues, clients, partners, recruiters, advisors, helpers — family and friends too if they play a part in a project). Start with the people already mentioned in projects. Tell them they can add more any time later just by mentioning someone.
 
-Name files `people/<first-last>.md` when you know both names; otherwise use what they call the person (`herr-weber.md`, `mum-inge.md`). Don't ask questions just to complete a filename.
+For each person, ask a few questions at a time:
+
+1. **Who they are:** organisation and role — what they do, what they decide, what they're the go-to person for.
+2. **How to reach them:** email, phone, LinkedIn, and which channel they prefer (only what they want stored).
+3. **Where they fit:** their part in each project (decision maker, sponsor, technical contact, helper…), and who they report to or work closely with, if relevant.
+4. **Open loops:** anything one of you owes the other right now.
+
+Name files `people/<first-last>.md` when you know both names; otherwise use what they call the person (`herr-weber.md`, `mum-inge.md`). Don't ask questions just to complete a filename. Put short names and nicknames they use for the person in `aliases`.
+
+Facts (organisation, role, contact details, projects) go in the frontmatter only — don't repeat them in the body. Leave unknown fields empty rather than writing `TODO` in the frontmatter.
 
 ```markdown
 ---
 type: person
 status: active
 created: <today>
+aliases: []
+organisation:
+role:
+relationship:         # colleague, manager, client, partner, supplier, recruiter, advisor, friend, family…
+email:
+phone:
+linkedin:
+preferred_channel:
+location:             # city or timezone
+projects: []          # e.g. ["[[kitchen-renovation]]"]
+last_contact:         # YYYY-MM-DD
 tags: []
 ---
 
 # <Full name>
 
-**Relationship:** …
-**Contact:** …
-**Birthday:** … (if known)
+## Role
+<What they do, what they decide, what they're the go-to person for.>
 
-## Projects
-- [[project-name]]
+## Where they fit
+- Reports to / works with [[other-person]] (if relevant)
+- [[project-name]] — <their part, e.g. signs off the budget>
 
-## Notes
-- …
+## Open loops
+- [ ] I owe: …
+- [ ] They owe: …
 
 ## Log
 - <today>: Added during onboarding.
 ```
 
-In each project's **People** section, replace the plain names with links (`[[herr-weber]]`), and add anyone new — links on both sides.
+In each project's **People** section, replace the plain names with links and their role in that project (`[[herr-weber]] — signs off the budget`), and add anyone new — links on both sides.
 
 ## Step 5 — Ground rules → `rulebook.md`
 

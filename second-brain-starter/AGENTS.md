@@ -42,6 +42,14 @@ If I just say "onboard", "continue onboarding", "briefing" or "do my briefing" i
 - Project files have the sections: **Goal**, **Current status**, **Next steps** (checklist), **People**, **Log**.
 - Log entries are dated (`- YYYY-MM-DD: …`), newest first. When you learn something new about a project, add a Log entry rather than rewriting history.
 
+## People
+
+- **Look people up before you name them.** Whenever a name comes up (from me, an email, a calendar invite, a file), find the person in `people/`: match the full name, first name, email address or `aliases`. Use the full name and link from that note. If there's no match, or more than one, ask me rather than guessing.
+- Person notes follow the template in the onboard command: facts (organisation, role, contact details, projects, `last_contact`) in the frontmatter only, then **Role**, **Where they fit**, **Open loops** and **Log**. Don't repeat frontmatter facts in the body.
+- Project details belong in the project note. In a person note, each project gets one line: their part in it.
+- Someone new who matters to a project (from email, a meeting or something I tell you): offer to create a short note with what you know and where you saw them. Leave unknown fields empty; never fill them in from guesses.
+- Update `last_contact` and **Open loops** whenever you learn that we talked or that a promise was kept.
+
 ## Capturing what I tell you
 
 Everything I type, paste, attach or point you to is a candidate for my notes — not just something to answer and forget. Whenever I give you new information (a fact, a decision, an update, a file, a screenshot):
