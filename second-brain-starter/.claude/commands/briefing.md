@@ -12,7 +12,8 @@ Gather, from the sources available in this session:
    - When you report a thread's status, give the date of its latest message ("Anna replied on 27 Oct") so a wrong "no reply" is easy to spot.
    - If you can't open a thread, say "could not verify" instead of guessing.
 3. **Projects** — for each active project, the single most important next step, and anything overdue or stuck.
-4. **People** — read the **Open loops** in `people/`. List anyone I owe a reply or a promise to, and anything others owe me that is now overdue. For every item, say who acts next.
+4. **People** — read the **Open loops** in `people/`. List anyone I owe a reply or a promise to, and anything others owe me that is now overdue. Use the `by` dates: overdue first, then due in the next 3 days. For every item, say who acts next.
+   - **Going quiet:** people linked to an active project whose `last_contact` is more than 30 days ago (or empty). List at most 3, oldest first, with the project they matter for. Skip anyone I've said to leave alone.
 5. **Who I'm meeting** — for each meeting today with people outside my household, look up every attendee in `people/` (match names, emails and `aliases`). Give their role and organisation, their part in the related project, and the latest Log entry or open loop. Flag attendees with no note and offer to create one.
 
 Write `daily/<today>.md`:
@@ -43,6 +44,7 @@ date: <today>
 ## People
 - I owe [[person]]: …
 - [[person]] owes me: … (overdue since …)
+- Going quiet: [[person]] — last contact …, matters for [[project]]
 ```
 
 For every item that someone else has to act on, end the line with `Next action: [[person]]` and don't give it a checkbox. Checkboxes are only for things I do myself. Never write "chase", "nudge" or "remind" as my action item.

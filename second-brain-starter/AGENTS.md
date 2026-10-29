@@ -48,7 +48,7 @@ If I just say "onboard", "continue onboarding", "briefing" or "do my briefing" i
 - Person notes follow the template in the onboard command: facts (organisation, role, contact details, projects, `last_contact`) in the frontmatter only, then **Role**, **Where they fit**, **Open loops** and **Log**. Don't repeat frontmatter facts in the body.
 - Project details belong in the project note. In a person note, each project gets one line: their part in it.
 - Someone new who matters to a project (from email, a meeting or something I tell you): offer to create a short note with what you know and where you saw them. Leave unknown fields empty; never fill them in from guesses.
-- Update `last_contact` and **Open loops** whenever you learn that we talked or that a promise was kept.
+- Update `last_contact` and **Open loops** whenever you learn that we talked or that a promise was kept. When a promise has a date, write it as `(by YYYY-MM-DD)` so the briefing can spot what's overdue.
 
 ## Capturing what I tell you
 

@@ -14,7 +14,8 @@ The workshop is taught with **Claude**, but the same folder also works in the **
    - ChatGPT: https://chatgpt.com/download
 3. **Obsidian** (free): https://obsidian.md — for reading your notes.
 4. Unzip this folder somewhere easy to find, e.g. `Documents/second-brain`.
-5. *Optional:* **Git** and **uv**, two small free tools that help with some later integrations. You don't have to do this beforehand: during onboarding, the AI checks whether they're already installed and offers to install them for you.
+5. *Optional:* a **contact or client export** (CSV) from your CRM, e.g. Salesforce, HubSpot or LinkedIn. Keep the file handy: onboarding creates an `input/` folder, asks you to put it there, and uses it to set up your people and projects. Email, calendar, team chat (Slack or Teams) and a spoken braindump work too, with no preparation.
+6. *Optional:* **Git** and **uv**, two small free tools that help with some later integrations. You don't have to do this beforehand: during onboarding, the AI checks whether they're already installed and offers to install them for you.
 
 ## Getting started
 
