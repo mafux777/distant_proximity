@@ -61,7 +61,7 @@ Everything I type, paste, attach or point you to is a candidate for my notes —
 5. Skip chit-chat and one-off questions that don't change anything worth remembering.
 6. **Tell me what you filed**, in one or two lines (e.g. "Added to `projects/kitchen-renovation.md` and `people/anna-schmidt.md`"). If I disagree, undo it.
 7. For attached or dropped files that matter beyond this conversation, offer to save a copy in `input/` so you can read it again later.
-8. If you can't read a file in `input/` directly (for example a PDF), say so and either extract its text with a small script or ask me to attach it to the chat instead. Never guess what a file says.
+8. **Read files in `input/` directly first**, including PDFs, images and scanned documents: your own file reading usually shows both the text and the page layout (tables, letterheads, stamps). For long PDFs, read them in parts. Only if direct reading fails, say so and either extract the text with a small script or ask me to attach the file to the chat. Never guess what a file says.
 
 ## Files you create for me (`output/`)
 
