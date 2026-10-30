@@ -2,7 +2,16 @@
 description: Create today's daily briefing in daily/YYYY-MM-DD.md
 ---
 
-Create today's daily briefing. First read `rulebook.md` (style, what counts as urgent, which sources you can access) and `about-me.md`. Then read every file in `projects/` with `status: active`, and the most recent note in `daily/` if there is one.
+Create today's daily briefing.
+
+**Before anything else, get the real date and time from the computer.** Don't assume them. Run:
+
+- Mac (and Git Bash on Windows): `date '+%A %Y-%m-%d %H:%M %Z'`
+- Windows PowerShell: `Get-Date -Format 'dddd yyyy-MM-dd HH:mm K'`
+
+Use the result for "today", the weekday, the note's file name, and every "in 2 hours" or "3 days ago" in the briefing.
+
+Then read `rulebook.md` (style, what counts as urgent, which sources you can access) and `about-me.md`. Then read every file in `projects/` with `status: active`, and the most recent note in `daily/` if there is one.
 
 Gather, from the sources available in this session:
 
