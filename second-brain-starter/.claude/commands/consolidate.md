@@ -12,7 +12,7 @@ Run `git status`. If there are changes you didn't make, commit them as `My edits
 
 ## 2. Read
 
-Read `rulebook.md` (especially `## Briefing rules`, `## Exceptions` and `feedback_autonomy`), the frontmatter of every file in `projects/` (`status`, `paused_until`), and the `## Open loops` of notes in `people/` that mention a date. Also look at the last 30 days of `git log --oneline` for commits whose message starts with `Feedback:`, to see what I have been telling you.
+Read `rulebook.md` (especially `## Briefing rules`, `## Exceptions` and `feedback_autonomy`), the frontmatter of every file in `projects/` (`status`, `paused_until`), and the open **Promise** Log entries (no later **Kept** entry) in `people/` and `projects/` that mention a date. Also look at the last 30 days of `git log --oneline` for commits whose message starts with `Feedback:`, to see what I have been telling you.
 
 ## 3. Find the problems
 

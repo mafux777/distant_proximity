@@ -213,7 +213,7 @@ Then ask them to pick the people who matter **most right now** (typically 5–10
 1. **Who they are:** organisation and role — what they do, what they decide, what they're the go-to person for.
 2. **How to reach them:** email, phone, LinkedIn, and which channel they prefer (only what they want stored).
 3. **Where they fit:** how you met, their part in each project (decision maker, sponsor, technical contact, helper…), and who they report to or work closely with, if relevant.
-4. **Open loops:** anything one of you owes the other right now, and by when if there's a date.
+4. **Promises:** anything one of you owes the other right now, and by when if there's a date. Record each one as a **Promise** entry in the person's Log (see the template below).
 
 Name files `people/<first-last>.md` when you know both names; otherwise use what they call the person (`herr-weber.md`, `mum-inge.md`). Don't ask questions just to complete a filename. Put short names and nicknames they use for the person in `aliases`.
 
@@ -248,13 +248,13 @@ tags: []
 - Reports to / works with [[other-person]] (if relevant)
 - [[project-name]] — <their part, e.g. signs off the budget>
 
-## Open loops
-- [ ] I owe: … (by YYYY-MM-DD, if there's a date)
-- [ ] They owe: … (by YYYY-MM-DD, if there's a date)
-
 ## Log
 - <today>: Added during onboarding.
+- <today>: **Promise** — I owe <them>: … (by YYYY-MM-DD, if there's a date)
+- <today>: **Promise** — <they> owe me: … (by YYYY-MM-DD, if there's a date)
 ```
+
+Only write a **Promise** line when there is one. Promises are never kept in a separate list: they are dated Log entries, and a **Promise** with no later **Kept** entry is still open. A promise that belongs to a project goes in that project's Log instead.
 
 In each project's **People** section, replace the plain names with links and their role in that project (`[[herr-weber]] — signs off the budget`), and add anyone new — links on both sides.
 

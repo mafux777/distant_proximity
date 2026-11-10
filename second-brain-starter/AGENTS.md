@@ -52,10 +52,11 @@ In the Gemini app, each new task starts without these instructions, so tell me t
 ## People
 
 - **Look people up before you name them.** Whenever a name comes up (from me, an email, a calendar invite, a file), find the person in `people/`: match the full name, first name, email address or `aliases`. Use the full name and link from that note. If there's no match, or more than one, ask me rather than guessing.
-- Person notes follow the template in the onboard command: facts (organisation, role, contact details, projects, `last_contact`) in the frontmatter only, then **Role**, **Where they fit**, **Open loops** and **Log**. Don't repeat frontmatter facts in the body.
+- Person notes follow the template in the onboard command: facts (organisation, role, contact details, projects, `last_contact`) in the frontmatter only, then **Role**, **Where they fit** and **Log**. Don't repeat frontmatter facts in the body.
 - Project details belong in the project note. In a person note, each project gets one line: their part in it.
 - Someone new who matters to a project (from email, a meeting or something I tell you): offer to create a short note with what you know and where you saw them. Leave unknown fields empty; never fill them in from guesses.
-- Update `last_contact` and **Open loops** whenever you learn that we talked or that a promise was kept. When a promise has a date, write it as `(by YYYY-MM-DD)` so the briefing can spot what's overdue.
+- Update `last_contact` whenever you learn that we talked.
+- **Promises live in the Log.** Write every promise, mine or theirs, as a dated **Promise** entry in the Log of the person's note, or of the project's note if it belongs to a project: `- YYYY-MM-DD: **Promise** — I owe Sarah an intro to Tom (by YYYY-MM-DD)`. When a promise has a date, include `(by YYYY-MM-DD)` so the briefing can spot what's overdue. When it's kept, add a new Log entry (`- YYYY-MM-DD: **Kept** — intro to Tom for Sarah`) instead of editing the old one. A **Promise** with no later **Kept** entry is still open. There is no separate "Open loops" list.
 
 ## Capturing what I tell you
 
@@ -78,7 +79,7 @@ When I tell you the briefing (or anything else you did) was noisy, wrong or miss
 
    | Type | Example | Where it goes |
    |------|---------|---------------|
-   | A **fact** about the world | "The Acme project is on hold until January." | The project or person note: `status: paused` and `paused_until`, a dated Log entry, or an Open loop. These follow the capture rules above (update the note, tell me what you filed). |
+   | A **fact** about the world | "The Acme project is on hold until January." | The project or person note: `status: paused` and `paused_until`, or a dated Log entry (a promise is a **Promise** entry). These follow the capture rules above (update the note, tell me what you filed). |
    | A **standing preference** | "Never show me newsletters." | `## Briefing rules` in `rulebook.md`. |
    | A **one-off or time-limited exception** | "Not this week, I'm on leave until the 20th." | `## Exceptions` in `rulebook.md`, one line each, ending with `(until YYYY-MM-DD)`. |
 
