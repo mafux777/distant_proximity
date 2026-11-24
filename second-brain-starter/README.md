@@ -44,8 +44,8 @@ The workshop was first run on Claude. The ChatGPT, Gemini and Antigravity steps 
 
 **In the ChatGPT app:**
 
-1. Choose **Codex**, then add this folder (`second-brain`) as a project with **Add new project**.
-2. Start a **New chat** in that project. Type `/permissions` and choose **Auto** or **Read-only**, never **Full access**.
+1. Choose **Codex**, then open the extracted `second-brain` folder as a local project. Keep hidden files and folders from the ZIP.
+2. Start a new chat in that project. Open `/permissions` and choose **Auto**, which allows Codex to write notes in the project. Git history is protected by the sandbox, so review the separate approval requests for Git setup and checkpoints as they appear.
 3. Type **`$onboard`** and press Enter. If that doesn't show up, restart the app or just type "Start onboarding".
 
 **In the Gemini app for Mac:**
