@@ -1,0 +1,19 @@
+Invoice_ID,Vendor,Category,Amount,Due_Date,Status,Notes
+INV-401,PixelCraft Studio,Design,"$3,200.00",2026-10-05,Paid,Q4 campaign landing pages
+INV-402,Northstar Copy,Copywriting,2400,10/10/2026,Paid,Product launch emails
+INV-403,BrightMedia Ads,Paid Media,"$4,500.00",2026-10-15,Unpaid,LinkedIn Q4 spend tranche 1
+INV-404,Signal Analytics,Analytics,1850,10/18/2026,Paid,Attribution dashboard setup
+INV-405,Harbor Video Co,Video,"$5,200.00",2026-10-22,Paid,3-min explainer production
+INV-403,BrightMedia Ads,Paid Media,"$4,500.00",2026-10-15,Unpaid,LinkedIn Q4 spend tranche 1
+INV-406,CloudEvent Ops,Events,3100,2026-10-28,Unpaid,London roundtable catering
+INV-407,Northstar Copy,Copywriting,"$2,200.00",11/02/2026,Unpaid,Case study drafts
+INV-408, pixelcraft studio ,Design,1900,2026-11-05,Paid,Social graphics refresh
+INV-409,BrightMedia Ads,Paid Media,3800,11/25/2026,Unpaid,November retargeting budget
+INV-410,Harbor Video Co,Video,"$1,700.00",2026-11-10,Unpaid,Short cutdowns for LinkedIn
+INV-411,Signal Analytics,Analytics,1450,11/12/2026,Paid,Monthly reporting retainer
+INV-412,Northstar Copy,,1350,2026-11-28,Unpaid,Email sequence rewrite
+INV-407,Northstar Copy,Copywriting,"$2,200.00",11/02/2026,Unpaid,Case study drafts
+INV-413,CloudEvent Ops,Events,"$2,600.00",12/01/2026,Unpaid,Venue deposit December
+INV-414,PixelCraft Studio,Design,1500,2026-10-01,Paid,Brand template tweaks (paid late)
+INV-415,BrightMedia Ads,Paid Media,"$2,000.00",12/05/2026,Unpaid,December search campaign
+INV-416,Signal Analytics,Analytics,1000,2026-12-10,Unpaid,Year-end audit
